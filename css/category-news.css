@@ -147,181 +147,48 @@ margin-top: 20px;
 
 
 /* style body --------------------------------------------*/
-#list-news{
+#wrapper-content{
     padding: 0;
     height: auto;
     width: 73%;
     margin-bottom: 30px;
 }
-.info-product{
-    height: 418px;
-    width: 786px;
-    border-bottom: 2px solid #e9f1f8;
-    margin-bottom: 30px;
+.item-new{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 26px;
+    padding-right: 18px;
 }
-.img-product{
-    width: 34%;
-}
-.information-product{
-    width: 66%;
+.info-item{
+    padding: 0 20px;
     line-height: 24px;
-    padding-left: 60px;
 }
-.product-name{
-    font-size: 25px;
-    height: 38px;
-}
-.product-code{
-    font-size: 14px;
-    margin-bottom: 20px;
-    position: relative;
-    display: flex;
-    color: #777777;
-}
-.product-code img{
-    position: absolute;
-    top: 4px;
-}
-.product-code p{
-    margin-left: 25px;
-}
-.product-price{
-    display: flex;
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-.product-price-after{
-    margin-right: 13px;
-    color: #af8a4e;
-}
-.product-price-before{
-    text-decoration: line-through;
-    color: #b4b4b4;
-    font-size: 20px;
-    font-family: roboto condensed;
-    font-weight: 300;
-}
-.product-text{
-    margin-bottom: 15px;
-    font-size: 16px;
-    color: #777777;
-    text-align: justify;
-}
-.product-amount{
-    display: flex;
-    margin-bottom: 22px;
-}
-.product-amount button{
-    width: 30px;
-    height: 30px;
-}
-.amount{
-    width: 30px;
-    height: 30px;
-    border: 1px solid #c9c9c9;
-    text-align: center;
-}
-.payments{
-    margin-top: 20px;
-    position: relative;
-}
-.payments img{
-    position: absolute;
-    top: 4px;
-}
-.payments a{
+.title-item a{
     text-decoration: none;
-    margin-left: 25px;
-    color:#777777;
 }
-
-.content-product{
-    width: 786px;
-    margin-bottom: 20px;
-}
-.head-content{
-    height: 50px;
-    width: 200px;
-    background-color: #e9f1f8;
-    text-align: center;
-}
-.head-content h4{
-    padding: 17px;
-    font-size: 16px;
+.title-item h3{
+    font-size: 24px;
     font-family: roboto;
-    font-weight: 200;
+    color: #333333;
+    margin-bottom: 5px;
 }
-.content-detail{
-    text-align: justify;
-    line-height: 25px;
-    border: 1px solid #e9f1f8;
-    padding: 25px;
-    font-size: 14px;
-}
-.content-detail p{
-    margin-bottom: 15px;
-}
-
-.comments-fb{
-    width: 786px;
-    margin-bottom: 20px;
-}
-
-.head-same-category{
-    font-size: 25px;
-    text-transform: uppercase;
-    font-family: roboto condensed;
-    border-bottom: 2px solid #c9c9c9;
-    height: 42px;
-    margin-bottom: 20px;
-}
-.thumb{
-    height: 198px;
-    width: 187px;
-    overflow: hidden;
-    border-bottom: 1px solid #c9c9c9;
-}
-.thumb img{
-    height: 100%;
-    width: auto;
-}
-.head-same-category h4{
-    height: 42px;
-}
-.head-same-category:hover h4{
-    border-bottom:2px solid brown;
-    color: brown;
-}
-#same-category{
-    width: 786px;
-    margin-top: 20px;
-}
-.same-category .owl-item{
-    width: 25%;
-    font-size: 14px;
-    margin-right: 10px;
-    border: 1px solid #c9c9c9;
-    height: 292px;
-}
-.info-same-category{
-    text-align: justify;
-    padding: 8px;
-}
-.info-same-category h5{
+.datetime-item p{
     font-size: 13px;
+    color: #ada5a5;
     margin-bottom: 12px;
 }
-button.owl-prev{
-    font-size: 25px!important;
-    width: 30px;
-    background-color: bisque!important;
-    height: 30px;
+.content-item a{
+    text-decoration: none;
 }
-button.owl-next{
-    font-size: 25px!important;
-    width: 30px;
-    background-color: bisque!important;
-    height: 30px;
+.content-item p{
+    font-size: 15px;
+    color: #777777;
+    text-align: justify;
+}
+.number-page{
+    display: flex;
 }
 
 /* style sidebar */
